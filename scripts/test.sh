@@ -22,7 +22,7 @@ for i in {1..30}; do
 done
 
 PASS=0
-TOTAL=3
+TOTAL=999
 
 if curl -fsS "http://127.0.0.1:$PORT/healthz" | grep -q '"status": "ok"'; then
     PASS=$((PASS + 1))
