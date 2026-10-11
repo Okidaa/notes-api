@@ -14,3 +14,8 @@ The application reads the target HTTP port from the `PORT` environment variable.
 ## How to run it
 ```bash
 ./scripts/run.sh
+
+
+## How to test it
+```bash
+./scripts/test.sh
