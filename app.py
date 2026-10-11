@@ -60,3 +60,5 @@ if __name__ == "__main__":
     server = HTTPServer(("0.0.0.0", port), NotesHandler)
     print(f"Notes API listening on port {port}", flush=True)
     server.serve_forever()
+
+# minor change
