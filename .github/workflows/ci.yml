@@ -31,7 +31,7 @@ jobs:
 
       - run: ./scripts/test.sh
 
-publish:
+  publish:
     name: Build, scan and publish the image
     needs: test
     if: github.event_name == 'push'
